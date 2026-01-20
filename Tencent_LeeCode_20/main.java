@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-// 有效的括号
+// 有效的括号 --> 极致运行时间优化考虑方向：复用字符串的 char 数组作为栈
 class Solution {
     public boolean isValid(String s) {
         // 长度不为偶数的字符串直接返回false
