@@ -1,4 +1,4 @@
-package Tencent_LeeCode_70;
+package Tencent.LeeCode.DP_MemSearch_70;
 
 class Solution {
     public int climbStairs(int n) {

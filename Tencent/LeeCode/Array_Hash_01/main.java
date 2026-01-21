@@ -1,4 +1,4 @@
-package Tencent_LeeCode_01;
+package Tencent.LeeCode.Array_Hash_01;
 
 import java.util.HashMap;
 import java.util.Map;

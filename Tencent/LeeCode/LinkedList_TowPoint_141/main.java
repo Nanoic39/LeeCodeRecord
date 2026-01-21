@@ -1,4 +1,4 @@
-package Tencent_LeeCode_141;
+package Tencent.LeeCode.LinkedList_TowPoint_141;
 
 // 题目中已给出
 class ListNode {
