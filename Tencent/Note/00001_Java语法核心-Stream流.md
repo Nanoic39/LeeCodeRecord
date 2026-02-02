@@ -1,6 +1,6 @@
 # 00001. Java语法核心-Stream流
 ## 基础概念
-> Stream（流）是 Java 8 中处理集合的关键抽象概念，它可以可以让你以一种声明的方式对集合执行非常复杂的查找、过滤、映射等操作。
+> Stream（流）是 Java 8 中处理集合的关键抽象概念，它可以让你以一种声明的方式对集合执行非常复杂的查找、过滤、映射等操作。
 > Stream API 借助于Lambda 表达式，极大的提高了编程效率和程序的可读性。
 
 特性：
@@ -73,7 +73,7 @@ list.stream()
 // 场景：对用户列表按姓名去重、对商品列表按商品ID去重等。
 List<String> list = Arrays.asList("AA", "BB", "CC", "BB", "CC", "AA", "AA");
 long l= list.stream().distinct().count();
-String output = list.stream().distinct().collect(collectors.joining(","));
+String output = list.stream().distinct().collect(Collectors.joining(","));
 System.out.println(output); // AA,BB,CC
 
 // limit-截取：对流中的元素进行截取操作，只保留前 n 个元素。
